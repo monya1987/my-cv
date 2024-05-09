@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-cv/static/css/main.cc000973.css",
+    "main.js": "/my-cv/static/js/main.d1d453f1.js",
+    "static/media/bootstrap-icons.woff?": "/my-cv/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/my-cv/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/my-cv/index.html",
+    "main.cc000973.css.map": "/my-cv/static/css/main.cc000973.css.map",
+    "main.d1d453f1.js.map": "/my-cv/static/js/main.d1d453f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc000973.css",
+    "static/js/main.d1d453f1.js"
+  ]
+}
