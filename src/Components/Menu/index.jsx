@@ -2,7 +2,7 @@ function Component() {
     return (
         <div className="sidebar-wrapper">
             <div className="profile-container">
-                <img className='avatar' src="https://media.licdn.com/dms/image/D4D35AQETjGC5rRurIA/profile-framedphoto-shrink_800_800/0/1715081445645?e=1715691600&v=beta&t=Z8lLLtWHCHByZRazAYiTAw-ZAO8ruLL-RKnX6O2Of_M" alt=""/>
+                <img className='avatar' src="https://media.licdn.com/dms/image/D4D35AQEAuNf4YyVuVQ/profile-framedphoto-shrink_400_400/0/1715263718506?e=1715871600&v=beta&t=LEKG8fxxpyscBL9Bq_EBXLgoOPWx19fc86EO8HTOmB8" alt=""/>
                 <h1 className="name">Mihail Pesterev</h1>
                 <h3 className="tagline">
                     Senior Front End Developer
