@@ -8,20 +8,27 @@ function Component() {
                         <h3 className="job-title">Senior Front End Developer</h3>
                         <div className="time">2018 - 2024 <span>(6 years)</span></div>
                     </div>
-                    <div className="company">Ecentria Solutions</div>
+                    <div className="company">Ecentria Solutions - <a
+                        href="https://ecentria.com/">https://ecentria.com/</a></div>
                 </div>
                 <div className="details">
-                    <p>Project: Ecommerce platform for web sites. (SSR + SSG)</p>
-                    <p>Site: www.opticsplanet.com</p>
+                    <p>Project: Ecommerce platform for online stores that supports 13 stores.</p>
+                    <p>When i came to project the main goal was to move platforms FE to React, improving user experience
+                        and lighthouse metrics.</p>
+                    <p>Part of the platform was moved to microservices architecture, also there was created "UI Design
+                        system" which was moved to separated npm package.</p>
+                    <p>Personal achievements: Implement Lazy hydration, migration process from React 16 to 18, took an
+                        active part in creating \ migrating to UI Design system, several projects with improving pages
+                        performance ...</p>
                     <ul>
-                        <li><strong>BE:</strong> Symphony</li>
+                        <li><strong>FE:</strong> TS, React, Redux, Redux-Saga, Design system (Ariakit +
+                            vanilla-extract/css)
+                        </li>
                         <li><strong>SSR:</strong> react-on-rails + limenius</li>
-                        <li><strong>Tests:</strong> Unit (Jest), End-to-end (Behat)</li>
-                        <li><strong>FE-1:</strong> TS, React, Redux, Redux-Saga, UI Components (ariakit + vanilla-extract/css)</li>
-                        <li><strong>FE-2:</strong> Backbone.Events, Backbone.Model, JQ,  twig, foundation + less + postcss</li>
-                        <li><strong>Build:</strong> Webpack, Babel</li>
+                        <li><strong>Testing:</strong> Unit (Jest), End-to-end (Behat)</li>
+                        <li><strong>Build tools:</strong> Webpack, Babel</li>
                         <li><strong>A/B testing:</strong> GrowthBook + GA</li>
-                        <li>Storybook</li>
+                        <li><strong>Design tools:</strong> Storybook, Figma</li>
                     </ul>
                 </div>
                 <hr/>
@@ -33,30 +40,26 @@ function Component() {
                         <h3 className="job-title">Fullstack JS Developer (MERN)</h3>
                         <div className="time">2017 - 2018 <span>(1 year)</span></div>
                     </div>
-                    <div className="company">GBSFO</div>
+                    <div className="company">GBSFO - <a href="https://www.gbsfo.com/">https://www.gbsfo.com/</a></div>
                 </div>
                 <div className="details">
-                    <p>Dashboard for customer (SPA)</p>
+                    <p>Creation of a new website and admin panel for the customer.</p>
+                    <p>Personal achievements: Integrating GWT auth, setup UI themes with Ant Design <br/>and Material
+                        UI.</p>
+                    <p>Customers Dashboard (SPA)</p>
                     <ul>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Material UI</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
+                        <li>React, Redux, Material UI, MongoDB, Express, Webpack</li>
                     </ul>
-                    <p>Site (SSR + SSG)</p>
+                    <p>Web Site (SSR)</p>
                     <ul>
-                        <li>NextJS 11</li>
-                        <li>Ant Design</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
+                        <li>NextJS, Ant Design, MongoDB, Express, Webpack</li>
                     </ul>
                 </div>
                 <hr/>
             </div>
 
             <div className="item">
-            <div className="meta">
+                <div className="meta">
                     <div className="upper-row">
                         <h3 className="job-title">Front End Developer</h3>
                         <div className="time">2013 - 2017 <span>(3 years)</span></div>
@@ -86,7 +89,8 @@ function Component() {
                 <div className="details">
                     <p>Dashboard for corporate users www.comodo.com</p>
                     <p>BE: Zkoss (Java framework)</p>
-                    <p>Responsibilities: BE renders Vanilla js + html and most time i've just add css to rendered components.</p>
+                    <p>Responsibilities: BE renders Vanilla js + html and most time i've just add css to rendered
+                        components.</p>
                 </div>
                 <hr/>
             </div>
@@ -106,34 +110,43 @@ function Component() {
                 <hr/>
             </div>
 
-            <div className="item">
-                <div className="meta">
-                <div className="upper-row">
-                        <h3 className="job-title">Lecturer at the Academy STEP</h3>
-                        <div className="time">2009 - 2010 <span>(1 year)</span></div>
-                    </div>
-                    <div className="company">Academy STEP</div>
-                </div>
-                <div className="details">
-                    <p>Lecturer - HTML, CSS, Photoshop, CMS Joomla</p>
-                </div>
-                <hr/>
-            </div>
+            {/*<div className="item">*/}
+            {/*    <div className="meta">*/}
+            {/*    <div className="upper-row">*/}
+            {/*            <h3 className="job-title">Lecturer at the Academy STEP</h3>*/}
+            {/*            <div className="time">2009 - 2010 <span>(1 year)</span></div>*/}
+            {/*        </div>*/}
+            {/*        <div className="company">Academy STEP</div>*/}
+            {/*    </div>*/}
+            {/*    <div className="details">*/}
+            {/*        <p>Lecturer - HTML, CSS, Photoshop, CMS Joomla</p>*/}
+            {/*    </div>*/}
+            {/*    <hr/>*/}
+            {/*</div>*/}
 
+            {/*<div className="item">*/}
+            {/*    <div className="meta">*/}
+            {/*        <div className="upper-row">*/}
+            {/*            <h3 className="job-title">Junior Front End Developer</h3>*/}
+            {/*            <div className="time">2008 - 2009 <span>(1.5 year)</span></div>*/}
+            {/*        </div>*/}
+            {/*        <div className="company">Exigen Services</div>*/}
+            {/*    </div>*/}
+            {/*    <div className="details">*/}
+            {/*        <p>Project: www.t-mobile.com</p>*/}
+            {/*        <p>Responsibilities: Site support + Redesign to company-developed front-end framework.</p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            <br/><br/><br/><br/>
+            <h2 className="section-title">Educational Background:</h2>
             <div className="item">
                 <div className="meta">
                     <div className="upper-row">
-                        <h3 className="job-title">Junior Front End Developer</h3>
-                        <div className="time">2008 - 2009 <span>(1.5 year)</span></div>
+                        <h3 className="job-title">Graduated with a Bachelor's degree in IT STEP Computer Academy</h3>
+                        <div className="time">2006 - 2010</div>
                     </div>
-                    <div className="company">Exigen Services</div>
-                </div>
-                <div className="details">
-                    <p>Project: www.t-mobile.com</p>
-                    <p>Responsibilities: Site support + Redesign to company-developed front-end framework.</p>
                 </div>
             </div>
-
 
         </section>
     );
