@@ -30,7 +30,8 @@ body {
   color: #545E6C;
   background: #f5f5f5;
   font-size: 14px;
-  padding: 30px;
+  padding: 0;
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -342,7 +343,6 @@ body {
   color: $text-color-secondary;
   background: $smoky-white;
   font-size: 14px;
-  padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -512,7 +512,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   .experiences-section,
@@ -533,16 +533,16 @@ p {
   .cert-title{
     color: $text-color;
     font-size: 16px;
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 700;
     flex: 75%;
   }
   .time,
   .cert-url {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 15px;
     color: $text-grey;
     flex: 25%;
   }
@@ -551,6 +551,7 @@ p {
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
+    font-weight: bold;
   }
 
   .project-title {

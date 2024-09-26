@@ -12,13 +12,13 @@ function Component() {
                         href="https://ecentria.com/">https://ecentria.com/</a></div>
                 </div>
                 <div className="details">
-                    <p>Project: Ecommerce platform for online stores that supports 13 stores.</p>
-                    <p>When i came to project the main goal was to move platforms FE to React, improving user experience
+                    <p>Project: eCommerce platform witch has 300k users per day and support 13 online stores.</p>
+                    <p>When I came to project the main goal was to move platform FE to React, to improve user experience
                         and lighthouse metrics.</p>
                     <p>Part of the platform was moved to microservices architecture, also there was created "UI Design
-                        system" which was moved to separated npm package.</p>
+                        system" which was moved to separate npm package.</p>
                     <p>Personal achievements: Implement Lazy hydration, migration process from React 16 to 18, took an
-                        active part in creating \ migrating to UI Design system, several projects with improving pages
+                        active part in creating \ migrating UI Design system, several projects by improving the page's
                         performance ...</p>
                     <ul>
                         <li><strong>FE:</strong> TS, React, Redux, Redux-Saga, Design system (Ariakit +
@@ -43,7 +43,9 @@ function Component() {
                     <div className="company">GBSFO - <a href="https://www.gbsfo.com/">https://www.gbsfo.com/</a></div>
                 </div>
                 <div className="details">
-                    <p>Creation of a new website and admin panel for the customer.</p>
+                    <p>PWA and Admins dashboard for project that related to the medical and healthcare industry. Its goal is to help
+                        people with brain injuries to get their brain activity better and completely repair it if
+                        possible.</p>
                     <p>Personal achievements: Integrating GWT auth, setup UI themes with Ant Design <br/>and Material
                         UI.</p>
                     <p>Customers Dashboard (SPA)</p>
@@ -137,16 +139,16 @@ function Component() {
             {/*        <p>Responsibilities: Site support + Redesign to company-developed front-end framework.</p>*/}
             {/*    </div>*/}
             {/*</div>*/}
-            <br/><br/><br/><br/>
-            <h2 className="section-title">Educational Background:</h2>
-            <div className="item">
-                <div className="meta">
-                    <div className="upper-row">
-                        <h3 className="job-title">Graduated with a Bachelor's degree in IT STEP Computer Academy</h3>
-                        <div className="time">2006 - 2010</div>
-                    </div>
-                </div>
-            </div>
+            {/*<br/><br/><br/><br/>*/}
+            {/*<h2 className="section-title">Educational Background:</h2>*/}
+            {/*<div className="item">*/}
+            {/*    <div className="meta">*/}
+            {/*        <div className="upper-row">*/}
+            {/*            <h3 className="job-title"><br/>Graduated with a Bachelor's degree in IT STEP Computer Academy</h3>*/}
+            {/*            <div className="time">2006 - 2010</div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
         </section>
     );
