@@ -22,9 +22,9 @@ function Component() {
             <div className="container-block">
                 <h2 className="container-block-title">Languages</h2>
                 <ul className="list-unstyled">
-                    <li>English <span className="lang-desc">(Intermediate)</span></li>
-                    <li>Russian <span className="lang-desc">(Native)</span></li>
-                    <li>Ukrainian <span className="lang-desc">(Native)</span></li>
+                    <li>English <span className="lang-desc">Upper-Intermediate</span></li>
+                    <li>Russian <span className="lang-desc">Native</span></li>
+                    <li>Ukrainian <span className="lang-desc">Native</span></li>
                 </ul>
             </div>
         </div>
